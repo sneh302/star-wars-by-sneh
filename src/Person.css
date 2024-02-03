@@ -1,0 +1,46 @@
+body {
+    background-color: #f9f9f9;
+}
+
+.main-container-detail {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+.person-detail-main {
+    text-align: center;
+    width: 50%;
+}
+
+.person-detail {
+    text-align: left;
+    padding: 2rem;
+    font-size: 1.2rem;
+    background-color: #e8d8c4;
+    box-shadow: rgba(255, 0, 0, 0.16) 0px 3px 6px,
+        rgba(255, 0, 0, 0.23) 0px 3px 6px;
+}
+
+.person-detail > p > strong {
+    color: #0c2d57;
+    margin: 0.3rem;
+}
+
+.person-detail > P {
+    color: #492e87;
+    font-weight: 600;
+    padding: 0.3rem;
+}
+
+.person-image {
+    display: flex;
+}
+
+.person-image > img {
+    width: 15rem;
+    box-shadow: rgba(255, 0, 0, 0.16) 0px 3px 6px,
+        rgba(255, 0, 0, 0.23) 0px 3px 6px;
+}
